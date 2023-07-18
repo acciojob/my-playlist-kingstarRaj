@@ -5,26 +5,30 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
-<body>
-
-	<h1 style="text-align: center;">My Playlist</h1>
+<body style="background-color : #cccccc;">
+    <h1 style="text-align: center;">My Playlist</h1>
     <div class="player_one">
-        <a href="https://www.youtube.com/watch?v=kd-6aw99DpA" target="_blank" class="link">Song 1</a><br>
-        <a href="https://www.youtube.com/watch?v=9iIX4PBplAY" target="_blank" class="link">Song 2</a><br>
-        <a href="https://www.youtube.com/watch?v=IjBAgWKW12Y" target="_blank" class="link">Song 3</a><br>
-        <a href="https://www.youtube.com/watch?v=puKD3nkB1h4" target="_blank" class="link">Song 4</a><br>
-        <a href="https://www.youtube.com/watch?v=6MgsHSAcI9k" target="_blank" class="link">Song 5</a><br>
-    </div>
+        <ul type="none">
+           <li><a href="https://www.youtube.com/watch?v=kd-6aw99DpA" target="_blank" class="link">Song 1</a><br></li>
+           <li><a href="https://www.youtube.com/watch?v=9iIX4PBplAY" target="_blank" class="link">Song 2</a><br></li>
+           <li><a href="https://www.youtube.com/watch?v=IjBAgWKW12Y" target="_blank" class="link">Song 3</a><br></li>
+           <li><a href="https://www.youtube.com/watch?v=puKD3nkB1h4" target="_blank" class="link">Song 4</a><br></li>
+           <li><a href="https://www.youtube.com/watch?v=6MgsHSAcI9k" target="_blank" class="link">Song 5</a><br></li>
+        </ul>
+        </div>
 
-    <h2 style="text-align: center;">Now Playing....</h2>
+    <h2 style="text-align: center;">Now Playing...</h2>
     <div class="player_two">
-        <video src="https://www.w3schools.com/tags/movie.mp4" controls width="100%"></video>
+
+        <video controls width="100%">
+            <source src="https://www.w3schools.com/tags/movie.mp4">
+        </video>
+        
         <h2 style="text-align: center;">MP3 Songs</h2>
         maan meri jaan
-        <audio src="https://www.pagalworld.com.se/files/download/id/64630" controls width="100%">maan meri jaan</audio>
+        <audio src="https://www.pagalworld.com.se/files/download/id/64630" controls style="width: 100%;">maan meri jaan</audio>
     </div>
-	<!-- the entire body must be written by student -->
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
